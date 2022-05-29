@@ -1,11 +1,11 @@
 /* header */
 
 .header {
-	max-width: 1230px;
-	width: 90%;
-	margin: 50px auto 120px;
-	display: flex;
-	justify-content: space-between;
+	margin: 50px 0 120px;
+	&__wrap{
+		display: flex;
+		justify-content: space-between;
+	}
 }
 
 .secondary-nav .item-link {
@@ -22,16 +22,19 @@
 
 @media (max-width: 768px) {
 	.header {
-		flex-direction: column;
-		align-items: center;
+		
 		margin: 30px auto;
+		&__wrap{
+			flex-direction: column;
+			align-items: center;
+		}
 	}
 
-	.header .logo {
+	.logo {
 		margin-bottom: 20px;
 	}
 
-	.header .main-nav {
+	.main-nav {
 		margin-bottom: 20px;
 	}
 }
