@@ -1,4 +1,4 @@
-# Small React App - SpaceX
+# Small React SPA App - SpaceX
 
 ## Available Scripts
 
